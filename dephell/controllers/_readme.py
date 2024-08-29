@@ -6,7 +6,7 @@ from typing import Optional
 
 # external
 import attr
-from m2r import convert
+from m2r2 import convert
 
 # app
 from ..cached_property import cached_property

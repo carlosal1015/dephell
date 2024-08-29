@@ -142,7 +142,7 @@ aiohttp = "*"
 attrs = ">=19.2.0"
 cerberus = ">=1.3"
 jinja2 = "*"
-m2r = "*"
+m2r2 = "*"
 packaging = "*"
 pip = ">=18.0,<=19.3.1"
 requests = "*"
@@ -155,7 +155,7 @@ appdirs = {optional = true, version = "*"}
 bowler = {optional = true, version = "*"}
 docker = {optional = true, version = "*"}
 dockerpty = {optional = true, version = "*"}
-fissix = {optional = true, allows-prereleases = true, version = "*"}
+fissix = {optional = true, allow-prereleases = true, version = "*"}
 graphviz = {optional = true, version = "*"}
 html5lib = {optional = true, version = "*"}
 python-gnupg = {optional = true, version = "*"}

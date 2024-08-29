@@ -39,7 +39,7 @@ def test_extra():
 @pytest.mark.allow_hosts()
 def test_info_from_files():
     repo = WarehouseAPIRepo(name='pypi', url=DEFAULT_WAREHOUSE)
-    coroutine = repo.get_dependencies(name='m2r', version='0.2.1')
+    coroutine = repo.get_dependencies(name='m2r2', version='0.3.3.post2')
     deps = loop.run_until_complete(asyncio.gather(coroutine))[0]
     deps = {dep.name: dep for dep in deps}
     assert set(deps) == {'mistune', 'docutils'}
